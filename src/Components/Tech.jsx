@@ -35,7 +35,7 @@ class Tech extends Component {
               onClick={() => this.handleVote('up')}
               className="btn btn-primary btn-sm m-2"
             >
-              <i class="fas fa-thumbs-up"></i>
+              <i className="fas fa-thumbs-up"></i>
             </button>
             <span className="badge badge-warning m-2">
               {this.formatVotes(this.state.down)}
@@ -44,7 +44,7 @@ class Tech extends Component {
               onClick={() => this.handleVote('down')}
               className="btn btn-danger btn-sm m-2"
             >
-              <i class="fas fa-thumbs-down"></i>
+              <i className="fas fa-thumbs-down"></i>
 
 
             </button>
